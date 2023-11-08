@@ -20,4 +20,4 @@ ENV PORT 80
 
 # Run the application
 ENTRYPOINT ["/bin/sh", "-c"]
-CMD ["node app.cjs 42706d3e-502a-4916-9281-88381fa09e61"]
+CMD ["node app.cjs"]

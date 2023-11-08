@@ -7,7 +7,7 @@ const port = 80;
 
 if(process.env.checker === "amporo") {
 
-  var team_id = process.argv.slice(2);
+  var team_id = process.env.teamid;
   console.log("teamID = " + team_id);
 
   // Define the API endpoint and the data to post
